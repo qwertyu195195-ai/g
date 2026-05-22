@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="u.css">
+</head>
+<style>
+
+    body {
+    background: #aa69f3d8;
+}
+
+.container {
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 3px 4px 8px rgba(214, 138, 39, 0.562);
+}
+
+#settingsBtn {
+    background: #ff9100;
+    color: white;
+    border-style: default;
+    font-size: 16px;
+    paadding: 10px 20px;
+    border-radius: 5px;
+    csursor: pointer;
+
+}
+
+.stely-hidden {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0px 3px 4px #44f9ff;
+    background: linear-gradient(45deg, #ff9100);
+
+
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 4px 8px #44f9ff;
+    display: none;
+    teext-decoration: none;
+
+}
+
+.container:hover .stely-hidden {
+    display: block;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.b {
+    background: #ffffff88;
+    width: 300px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 6px rgb(255, 0, 0);
+    margin-right: 500px;
+    font-size: 40px;
+
+
+}
+
+h1 {
+    background: #79ffe9d3;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 3px 6px rgb(61, 61, 61);
+    text-shadow: 0px 3px 4px #44f9ff;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 3px 4px #ffffff;
+}
+
+.h {
+    display: none;
+}
+
+.f {
+    width: 100px;
+
+    box-shadow: 3px 4px 8px rgba(214, 138, 39, 0.562);
+
+}
+
+.Aa {
+    background: #ff9d9dd5;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 3px 4px #000000;
+    width: 100px;
+
+
+}
+
+.book {
+    color: #ff9100;
+    text-shadow: 0px 3px 4px #44f9ff;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ffffff);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    csursor: pointer;
+
+}
+
+.ao {
+    background: #ff1010d5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+    display: none;
+}
+
+.mo {
+    font-size: 30px;
+    text-shadow: 0px 3px 4px #f5b506;
+
+}
+
+.Aa:hover~.ao {
+    display: block;
+}
+</style>
+<body>
+    <div class="container">
+
+        <!-- أضفنا معرف id للزر ليتحكم بالقائمة -->
+        <button id="settingsBtn">اعدادات</button>
+
+        <!-- أضفنا كلاس hidden لإخفاء القائمة في البداية -->
+        <div id="dropdownMenu" class="stely-hidden">
+
+
+                <a href="#"> المتجر براند  </a>
+
+            <br>
+            <a href="#"> تواصل</a>
+
+      <br>
+
+    <a href="#">تحديث</a>
+
+
+</div>
+
+
+
+        </div>
+    </div>
+    <div class
+="b">
+        <h1>سيره ذاتيه</h1>
+        <p >الاسم: عباس</p>
+        <p>العمر: 16</p>
+        <p>المهنه: البرمجيه</p>
+    </div>
+
+<div class="Aa">
+    <button class="book">اقرء المزيد</button>
+</div>
+<div class="ao">
+
+       <p class="mo">انتضرو تحذيت الاصدار جديد في مرحله فتح المتجر براندات</p>
+
+</div>
+
+</body>
+</html>
